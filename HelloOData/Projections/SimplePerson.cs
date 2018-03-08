@@ -1,6 +1,6 @@
 ﻿namespace HelloOData.Projections
 {
-    public class PersonSimple
+    public class SimplePerson
     {
         public int Id { get; set; }
 

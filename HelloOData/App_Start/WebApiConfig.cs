@@ -26,7 +26,7 @@ namespace HelloOData
             config.Count().Filter().OrderBy().Expand().Select().MaxTop(100);
 
             builder.EntitySet<Person>("People");
-            builder.EntitySet<PersonSimple>("SimplePeople");
+            builder.EntitySet<SimplePerson>("SimplePeople");
 
             config.MapODataServiceRoute(
                 routeName: "ODataRoute",

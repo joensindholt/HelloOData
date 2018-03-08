@@ -117,7 +117,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Person.cs" />
-    <Compile Include="Projections\PersonSimple.cs" />
+    <Compile Include="Projections\SimplePerson.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

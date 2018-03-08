@@ -9,9 +9,9 @@ namespace HelloOData.Controllers
         DatabaseContext db = new DatabaseContext();
 
         [EnableQuery]
-        public IQueryable<PersonSimple> Get()
+        public IQueryable<SimplePerson> Get()
         {
-            return db.People.Select(p => new PersonSimple
+            return db.People.Select(p => new SimplePerson
             {
                 Id = p.Id,
                 Name = p.Name,
